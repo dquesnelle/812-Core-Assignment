@@ -17,7 +17,6 @@ def DNAgen (Nb, FileName): # this function will generate a random DNA sequence o
 
     FileName = open(FileName+".seq", "w+") # This line creates a file with your choice of name and a .seq extension
    
-    #Nb = random.randint(90, 10000) # this object specifies the number of bases in the sequence
 
     nucleotides = ["A", "T", "C", "G"] # this object lists the 4 nucleotides
     

@@ -13,9 +13,7 @@ RandSeq = function(FileName) {
   File = read_file(file = paste(FileName, ".seq", sep = ""))
   
   Seq2 = gsub(">Random Sequence ", "", File)
-  
-  #Seq2 = gsub("\n", "", Seq1) # this is here until I can fix the problem of \n showing up in my sequence file
-  #print(Seq2)
+
   
   num_A = str_count(Seq2, "A")
   num_T = str_count(Seq2, "T")
